@@ -297,7 +297,7 @@ bg-blue-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
           <motion.img
         
-  src="/profile.jpg"
+  src="/profile.png"
   alt="profile"
   className="rounded-2xl w-[260px] md:w-[300px] shadow-lg"
 />
