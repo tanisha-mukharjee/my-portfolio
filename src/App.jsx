@@ -297,7 +297,7 @@ bg-blue-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
           <motion.img
             variants={fadeUp}
-            src="/public/profile.jpg"
+            src="/profile.jpg"
             className="rounded-2xl w-[260px] md:w-[300px]
 shadow-lg hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]
 transition duration-500"
