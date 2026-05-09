@@ -296,12 +296,12 @@ bg-blue-500/10 blur-[140px] rounded-full pointer-events-none"></div>
         >
 
           <motion.img
-            variants={fadeUp}
-            src="/profile.jpg"
-            className="rounded-2xl w-[260px] md:w-[300px]
-shadow-lg hover:shadow-[0_0_40px_rgba(59,130,246,0.3)]
-transition duration-500"
-          />
+        
+  src="/profile.jpg"
+  alt="profile"
+  className="rounded-2xl w-[260px] md:w-[300px] shadow-lg"
+/>
+         
 
           <div>
             <motion.h1 variants={fadeUp} className="text-4xl md:text-5xl font-bold mb-3 leading-tight">
