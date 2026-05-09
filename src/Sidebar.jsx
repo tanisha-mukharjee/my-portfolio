@@ -22,7 +22,7 @@ function Sidebar({ active }) {
     },
     {
       icon: <HiMail />,
-      link: "mukharjeetanisha05@email.com",
+      link: "mailto:mukharjeetanisha05@email.com",
       label: "Email",
     },
    
