@@ -476,9 +476,14 @@ border border-gray-200 dark:border-white/10
             Integrated Apache Kafka for high-throughput data processing in Spring Boot microservices.
           </p>
 
-          <a href="/cert1.pdf" className="text-blue-400 text-sm mt-2 inline-block">
-            View Certificate →
-          </a>
+          <a
+  href="/jpmorgan-certificate.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
+>
+  📄 View Certificate →
+</a>
 
         </div>
       </div>
@@ -537,9 +542,14 @@ border border-gray-200 dark:border-white/10
             Built REST APIs using Spring Boot with JSON processing & testing.
           </p>
 
-          <a href="/cert2.pdf" className="text-purple-400 text-sm mt-2 inline-block">
-            View Certificate →
-          </a>
+          <a
+  href="/hpe-certificate.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition"
+>
+  📄 View Certificate →
+</a>
 
         </div>
       </div>
