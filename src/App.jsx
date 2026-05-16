@@ -476,7 +476,7 @@ border border-gray-200 dark:border-white/10
             Integrated Apache Kafka for high-throughput data processing in Spring Boot microservices.
           </p>
 
-          <a
+         <a
   href="/jpmorgan-certificate.pdf"
   target="_blank"
   rel="noopener noreferrer"
