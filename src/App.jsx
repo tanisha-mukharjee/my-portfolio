@@ -464,8 +464,8 @@ border border-gray-200 dark:border-white/10
 
           {/* GLOW */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100
-          bg-gradient-to-r from-blue-500/10 via-transparent to-transparent blur-xl"></div>
-
+bg-gradient-to-r from-blue-500/10 via-transparent to-transparent
+blur-xl pointer-events-none"></div>
           <h3 className="text-lg font-semibold relative z-10">
             JPMorgan Chase – Software Engineering Simulation
           </h3>
@@ -480,8 +480,7 @@ border border-gray-200 dark:border-white/10
   href="/jpmorgan-certificate.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  onClick={(e) => e.stopPropagation()}
-  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer"
+  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
 >
   📄 View Certificate →
 </a>
@@ -531,8 +530,8 @@ border border-gray-200 dark:border-white/10
 
           {/* GLOW */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100
-          bg-gradient-to-r from-purple-500/10 via-transparent to-transparent blur-xl"></div>
-
+bg-gradient-to-r from-purple-500/10 via-transparent to-transparent
+blur-xl pointer-events-none"></div>
           <h3 className="text-lg font-semibold relative z-10">
             Hewlett Packard Enterprise – Software Engineering Simulation
           </h3>
@@ -547,8 +546,7 @@ border border-gray-200 dark:border-white/10
   href="/hpe-certificate.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  onClick={(e) => e.stopPropagation()}
-  className="relative z-50 text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer"
+  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
 >
   📄 View Certificate →
 </a>
