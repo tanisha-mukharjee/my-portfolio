@@ -475,12 +475,12 @@ blur-xl pointer-events-none"></div>
           <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
             Integrated Apache Kafka for high-throughput data processing in Spring Boot microservices.
           </p>
-
-         
-  <button
+          <button
   type="button"
-  onClick={() => window.open("/jpmorgan-certificate.pdf", "_blank")}
-  className="text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer relative z-50"
+  onClick={() => {
+    window.location.href = "/jpmorgan-certificate.pdf";
+  }}
+  className="text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer bg-transparent border-none p-0"
 >
   📄 View Certificate →
 </button>
@@ -544,8 +544,10 @@ blur-xl pointer-events-none"></div>
 
           <button
   type="button"
-  onClick={() => window.open("/hpe-certificate.pdf", "_blank")}
-  className="text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer relative z-50"
+  onClick={() => {
+    window.location.href = "/hpe-certificate.pdf";
+  }}
+  className="text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer bg-transparent border-none p-0"
 >
   📄 View Certificate →
 </button>
