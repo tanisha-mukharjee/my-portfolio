@@ -476,14 +476,14 @@ blur-xl pointer-events-none"></div>
             Integrated Apache Kafka for high-throughput data processing in Spring Boot microservices.
           </p>
 
-         <a
-  href="/jpmorgan-certificate.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
+         
+  <button
+  type="button"
+  onClick={() => window.open("/jpmorgan-certificate.pdf", "_blank")}
+  className="text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer relative z-50"
 >
   📄 View Certificate →
-</a>
+</button>
 
         </div>
       </div>
@@ -542,14 +542,13 @@ blur-xl pointer-events-none"></div>
             Built REST APIs using Spring Boot with JSON processing & testing.
           </p>
 
-          <a
-  href="/hpe-certificate.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
+          <button
+  type="button"
+  onClick={() => window.open("/hpe-certificate.pdf", "_blank")}
+  className="text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer relative z-50"
 >
   📄 View Certificate →
-</a>
+</button>
 
         </div>
       </div>
