@@ -480,7 +480,8 @@ border border-gray-200 dark:border-white/10
   href="/jpmorgan-certificate.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition"
+  onClick={(e) => e.stopPropagation()}
+  className="relative z-50 text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer"
 >
   📄 View Certificate →
 </a>
@@ -546,7 +547,8 @@ border border-gray-200 dark:border-white/10
   href="/hpe-certificate.pdf"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition"
+  onClick={(e) => e.stopPropagation()}
+  className="relative z-50 text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer"
 >
   📄 View Certificate →
 </a>
