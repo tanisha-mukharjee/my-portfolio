@@ -475,15 +475,9 @@ blur-xl pointer-events-none"></div>
           <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
             Integrated Apache Kafka for high-throughput data processing in Spring Boot microservices.
           </p>
-          <a
-  href="/jpmorgan-certificate.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="relative z-[9999] text-blue-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-blue-300 transition cursor-pointer"
-  onClick={(e) => e.stopPropagation()}
->
-  📄 View Certificate →
-</a>
+          <p className="text-xs text-green-400 mt-3">
+  ✓ Verified via Forage Simulation
+</p>
 
         </div>
       </div>
@@ -542,15 +536,10 @@ blur-xl pointer-events-none"></div>
             Built REST APIs using Spring Boot with JSON processing & testing.
           </p>
 
-          <a
-  href="/hpe-certificate.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="relative z-[9999] text-purple-400 text-sm mt-3 inline-flex items-center gap-2 hover:text-purple-300 transition cursor-pointer"
-  onClick={(e) => e.stopPropagation()}
->
-  📄 View Certificate →
-</a>
+          <p className="text-xs text-green-400 mt-3">
+  ✓ Verified via Forage Simulation
+</p>
+
 
         </div>
       </div>
